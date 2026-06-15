@@ -1,0 +1,36 @@
+# EchoVault
+
+EchoVault is an intelligent file version tracking system designed for developers, writers, and teams who need a smarter way to manage file history.
+
+Unlike traditional version control tools, EchoVault automatically monitors selected folders, creates AI-generated summaries of changes, and enables natural language search across historical versions.
+
+## Features
+
+* Automatic file change detection
+* AI-generated version summaries
+* Natural language search
+* Fast local storage
+* Cross-platform support (Windows, Linux, macOS)
+* One-click file recovery
+* Lightweight and privacy-focused
+
+## Example Queries
+
+* "Find the version where login authentication was added"
+* "Show the file before the database migration"
+* "Recover the document from last Friday"
+
+## Tech Stack
+
+* Python
+* SQLite
+* FastAPI
+* Local Embedding Engine
+* React Dashboard
+
+## Why EchoVault?
+
+Traditional backup tools store versions.
+EchoVault helps you understand them.
+
+License: MIT
