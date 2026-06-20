@@ -13,24 +13,44 @@ Unlike traditional version control tools, EchoVault automatically monitors selec
 * Cross-platform support (Windows, Linux, macOS)
 * One-click file recovery
 * Lightweight and privacy-focused
+# TraceNest
 
-## Example Queries
+TraceNest is a lightweight and intelligent file monitoring system designed for developers, teams, and power users.
 
-* "Find the version where login authentication was added"
-* "Show the file before the database migration"
-* "Recover the document from last Friday"
+## Features
+
+* Real-time folder monitoring
+* Automatic file change tracking
+* Duplicate file detection using hash comparison
+* Activity timeline generation
+* Export reports to JSON and CSV
+* Cross-platform support (Windows, Linux, macOS)
+* Simple REST API for integrations
+* Modern command-line interface
+
+## Use Cases
+
+* Monitor project directories
+* Track document modifications
+* Detect unwanted file changes
+* Organize storage and remove duplicates
+* Generate audit reports for teams
 
 ## Tech Stack
 
-* Python
-* SQLite
+* Python 3.12+
 * FastAPI
-* Local Embedding Engine
-* React Dashboard
+* SQLite
+* Watchdog
+* Pandas
 
-## Why EchoVault?
+## Future Roadmap
 
-Traditional backup tools store versions.
-EchoVault helps you understand them.
+* Web dashboard
+* AI-powered anomaly detection
+* Cloud synchronization
+* Team collaboration features
 
-License: MIT
+## License
+
+MIT License
